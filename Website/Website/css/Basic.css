@@ -1,0 +1,16 @@
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: #F7F7F7;
+}
+
+header, body {
+  background-color: #FFFF64;
+  margin: 10px;
+}
+
+.container > div{
+  background-color: #000000;	
+}
+
