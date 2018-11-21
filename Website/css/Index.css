@@ -174,3 +174,32 @@ h1{ text-align: center;
     border: 1px solid #ccc;
     border-top: none;
 }
+.ranking{
+    text-align: center;
+}
+.cover{
+    align-content: center;
+}
+.title{ text-align:center;
+}
+.Artists{ text-align: center;}
+th,td{
+    border-bottom: 1px solid #A9A9A9;
+}
+tr {background-color: #F7F7F7;}
+.charts{
+    background-color: #F7F7F7
+}
+.topSongs{position: center;}
+
+.circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  border: #000 50px;
+  font-size: 40px;
+  color: #fff;
+  line-height: 400px;
+  text-align: center;
+  background: #000;
+}
