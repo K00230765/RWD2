@@ -11,3 +11,5 @@ function openChart(event, chartName) {
     document.getElementById(chartName).style.display = "block";
     event.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click(); 
+

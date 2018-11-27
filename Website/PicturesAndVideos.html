@@ -2,71 +2,95 @@
     <head>
         <link rel="stylesheet" href="Basic.css">
         <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="js/charts.js">
     </head>
     <body>
-        <header> 
-            <ol id="headerimage"> 
-            <li> <img src="img/Website%20Logo.png" width="140" height="150">
-            </li></ol>
+        <div class="container">
+            <div class="header">
+                <div class="top"> 
+                <input type="checkbox" id="nav-checkbox" class="nav-checkbox">
+                <!--<label for="nav-checkbox" class="nav-checkbox-label"><img src="img/Images/burgerMenu.png" alt="burger menu icon"></label>-->
+                <div class="searchbar">
+                        <form class="search" action="">
+                        <input class ="search" type="search"> 
+                        <i class="fa fa-search"></i>
+                        </form>
+                
+                    <div class="logo"><a class="logo" href="index.html">Issa Rap</a></div>
+                    </div>
+                </div>
+            </div>
+                
+                <nav> 
+                    <ul class="Navagation">
+                        <li><a href="index.html"><span class="navword">Main Page</span></a></li>
+                        <li><a href="FeaturedNews.html"><span class="navword">Featured News</span></a></li>
+                        <li><a href="PicturesAndVideos.html"><span class="navword">Media </span></a></li>
+                        <li><a href="SignUp.html"><span class="words"></span>Sign Up</a></li>
+                        <li><a href="SignIn.html"><span class="words"> </span>Sign In</a></li> 
+                        <li><a href="https://www.twitter.com"><span class="navword"><img src="img/Images/black-and-white-twitter-icon-transparent_296846.png" width="30" height="30"></span></a></li>
+                        <li><a href="https://www.facebook.com"><span class="navword"><img src="img/Images/facebook-logo-black-and-white_175545.png" width="30" height="30"></span></a></li>
+                        <li><a href="https://www.Instagram.com"><span class="navword"><img src="img/Images/instagram-icon-white-on-black.png" width="40" height="30"></span></a></li>
+                        <li><a href="https://www.Youtube.com"><span class="navword"><img src="img/Images/youtube-icon-black-and-white-circle_9987.png" width="40" height="30"></span></a></li>
+                    </ul>
+                    
+            </nav>
+        <div class="mainpart-right2">
+        <a href="#img1">
+        <img class="Slideshow1" src="img/Images/1.PNG">
+		</a>
+        <div class="lightbox" id="img1">
+        <a href="#img4" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/e-vQqtplpos" 
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+        <a href="#img2" class="light-btn btn-next">next</a>
+        </div>
+
+        <a href="#img2">
+        <img class="Slideshow1" src="img/Images/2.PNG">
+        </a>
+        <div class="lightbox" id="img2">
+        <a href="#img1" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/AtTwbCFnBSU"
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <a href="#img3" class="light-btn btn-next">next</a>
+        </div>
+
+        <a href="#img3">
+        <img class="Slideshow1" src="img/Images/3.PNG">
+        </a>
+        <div class="lightbox" id="img3">
+        <a href="#img2" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/6MH044w2sOs"
+			frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             
-            <ol id="searchbar">    <li> <form>
-        <input type="search" name="Search Bar" placeholder="Search">
-        </form> </li> 
-            </ol>
+            <a href="#img4" class="light-btn btn-next">next</a>
+                </div>
             
-             <nav>
-             <li><a href="index.html">Home</a></li>
-             <li><a href="FeaturedNews.html">Featured News</a></li>
-             <li><a href="PicturesAndVideos.html">Pictures/Videos of the Week</a></li>
-             <li><a href="Recommendations.html">Recommendations</a></li>
-             <li><a href="Community.html">Community</a></li>
-            <li><a href="https://www.twitter.com"><img src="img/Images/black-and-white-twitter-icon-transparent_296846.png" width="30" height="30"></a></li>
-            <li><a href="https://www.facebook.com"><img src="img/Images/facebook-logo-black-and-white_175545.png" width="30" height="30"></a></li>
-            <li><a href="https://www.Instagram.com"><img src="img/Images/instagram-icon-white-on-black.png" width="40" height="30"></a></li>
-            <li><a href="https://www.Youtube.com"><img src="img/Images/youtube-icon-black-and-white-circle_9987.png" width="40" height="30"></a></li>
-        </nav>
-        </header>
-        <h1> Pictures </h1>
+            <a href="#img4">
+        <img class="Slideshow1" src="img/Images/4.PNG" width="260" height="150">
+        </a>
+        <div class="lightbox" id="img4">
+        <a href="#img3" class="light-btn btn-prev">prev</a>
+            <a href="#_" class="btn-close">X</a>
+        <iframe width="853" height="480" src="https://www.youtube.com/embed/gapr7qhZ22w" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+            <a href="#img1" class="light-btn btn-next">next</a>
+                </div>
+			
         
-        <div class="Picture1">
-        <img src="img/Images/Juice-WRLD-Armed-Dangerous.png">
         </div>
-        <div class="Picture2">
-        <img src="img/Images/Lil%20Wayne.jpg">
-        </div>
-        <div class="Picture3">
-        <img src="img/Images/Offset.jpg">
-        </div>
-        <div class="Picture4">
-        <img src="img/Images/6ix9ine.jpg">
-        </div>
-        <div class="Picture5">
-        <img src="img/Images/lil-uzi-vert-jump-20-foot-stage-rolling-loud.jpg">
-        </div>
-        
-        <h1>Videos Of The Week</h1>
-        
-        <div class="Video1">
-        <a href="https://www.instagram.com/p/BqNZcXzHBEK/">
-            <img src="img/Images/6lack.JPG"></a>
-        </div>
-        <div class="Video2">
-        <a href="https://www.youtube.com/watch?v=yUif6C_uJgk">
-            <img src="img/Images/Drake.JPG"></a>
-        </div>
-        <div class="Video3">
-        <a href="https://www.youtube.com/watch?v=BgsoHTH7m54">
-            <img src="img/Images/Travis%20Scott.JPG"></a>
-        </div>
-        <div class="Video4">
-        <a href="https://www.youtube.com/watch?v=irVIUvDTTB0"></a>
-        <img src="img/Images/Migos.JPG">
+            
         </div>
         
         
         
-        
-        <footer class="footer">
+        <footer class="fooer">
         <div class="copyright">
         <p>&copy; Copyright 2017 ISSA A RAP MEDIA GROUP</p>
         </div>
