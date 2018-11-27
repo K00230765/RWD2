@@ -1,0 +1,301 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="Basic.css">
+        <link rel="stylesheet" href="css/Index.css">
+        <link rel="stylesheet" href="js/charts.js">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="top"> 
+                <div class="searchbar">
+                        <form class="search" action="">
+                        <input class ="search" type="search"> 
+                        <i class="fa fa-search"></i>
+                        </form>
+                    
+                    <div class="logo"><a class="logo" href="index.html">Issa Rap</a></div>
+                    </div>
+                </div>
+                
+                <nav> 
+                    <ul class="Navagation">
+                        <li><a href="index.html"><span class="navword">Main Page</span></a></li>
+                        <li><a href="FeaturedNews.html"><span class="navword">Featured News</span></a></li>
+                        <li><a href="PicturesAndVideos.html"><span class="navword">Media </span></a></li>
+                        <li><a href="SignUp.html"><span class="words"></span>Sign Up</a></li>
+                        <li><a href="SignIn.html"><span class="words"> </span>Sign In</a></li> 
+                        <li><a href="https://www.twitter.com"><span class="navword"><img src="img/Images/black-and-white-twitter-icon-transparent_296846.png" width="30" height="30"></span></a></li>
+                        <li><a href="https://www.facebook.com"><span class="navword"><img src="img/Images/facebook-logo-black-and-white_175545.png" width="30" height="30"></span></a></li>
+                        <li><a href="https://www.Instagram.com"><span class="navword"><img src="img/Images/instagram-icon-white-on-black.png" width="40" height="30"></span></a></li>
+                        <li><a href="https://www.Youtube.com"><span class="navword"><img src="img/Images/youtube-icon-black-and-white-circle_9987.png" width="40" height="30"></span></a></li>
+                    </ul>
+            </nav>
+            </div>
+            
+            <div class="mainpart-right1">
+            <div class = "Charts">
+            <div class="tab">
+             <button class="tablinks" onclick="openChart(event, 'topSongs')" id="defaultOpen">Top Songs</button>
+            <button class="tablinks" onclick="openChart(event, 'Albums')">Top Albums</button>
+            <button class="tablinks" onclick="openChart(event, 'hottestArtists')">Hottest Artists</button>
+            </div>
+                
+                <div id="topSongs" class="tabcontent">
+  <div class="chart1">
+        <table> <caption> Top Songs of the Month</caption>
+        <tr>
+            <th> Ranking </th>
+            <th> Song Cover </th>
+            <th> Song </th>
+            <th> Artist</th>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 1 </div >  </td>
+            <td><div class ="cover"> <img src="img/Images/https___images_genius_com_2e3c91a6918e647b768839bf108d695c_1000x1000x1.jpg" width="80" height="60"> </div></td>
+            <td><div class ="title"> ZEZE</div></td>
+            <td><div class ="Artists"> Kodak Black ft Travis Scott and Offset</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">  2 </div>  </td>
+            <td><div class ="cover"><img src="img/Images/https___images_genius_com_68d505210dfe645f563d657a5dd75757_1000x1000x1.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Pretty Little Fears</div></td>
+            <td> <div class ="Artists">6lack ft J.Cole</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 3 </div >   </td>
+            <td><div class ="cover"><img src="img/Images/Armed%20and%20Dangerous.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Armed and Dangerous</div></td>
+            <td><div class ="Artists"> Juice Wrld</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 4 </div > </td>
+            <td><div class ="cover"><img src="img/Images/Borrowed%20Love.jpg" width="80" height="60"></div></td>
+            <td> <div class ="title">Borrowed Love</div> </td>
+            <td> <div class ="Artists">Metro Boomin' ft Swae Lee and Wizkid</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 5 </div > </td>
+            <td><div class ="cover"><img src="img/Images/bad.png" width="80" height="60"></div></td>
+            <td><div class ="title">BAD!</div> </td>
+            <td> <div class ="Artists">XXXTentacion</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 6 </div >  </td>
+            <td><div class ="cover"><img src="img/Images/https___images_genius_com_9660c740b09c97b133f06403986ea11f_500x500x1.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Mo Bamba</div> </td>
+            <td><div class ="Artists"> Sheck Wes</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 7 </div > </td>
+            <td><div class ="cover"><img src="img/Images/nostytlist.jpeg" width="80" height="60"></div></td>
+            <td><div class ="title">No Stylist</div></td>
+            <td> <div class ="Artists">French Montana ft Drake</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">8  </div ></td>
+            <td><div class ="cover"><img src="img/Images/https___images_genius_com_9c8508d3056b146aee2ad72d5f0606e7_926x926x1.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Sicko Mode</div></td>
+            <td> <div class ="Artists">Travis Scott ft Drake</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">9  </div ></td>
+            <td><div class ="cover"><img src="img/Images/uproar.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Uproar</div></td>
+            <td> <div class ="Artists">Lil Wayne</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 10 </div > </td>
+            <td><div class ="cover"><img src="img/Images/squeezeface.png" width="80" height="60"></div></td>
+            <td><div class ="title">SqueezeFace</div></td>
+            <td> <div class ="Artists">Yxng Bane</div> </td>
+            </tr>
+            </table>
+        </div>
+</div>
+
+<div id="Albums" class="tabcontent">
+   <div class="chart2">
+       <table> <caption> Top Albums of the Month</caption>
+        <tr>
+            <th> Ranking </th>
+            <th> Album Cover </th>
+            <th> Album Name </th>
+            <th> Artist</th>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 1 </div >  </td>
+            <td><div class ="cover"> <img src="img/Images/Borrowed%20Love.jpg" width="80" height="60"> </div></td>
+            <td><div class ="title"> Not All Heroes Wear Capes</div></td>
+            <td><div class ="Artists"> Metro Boomin</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">  2 </div>  </td>
+            <td><div class ="cover"><img src="img/Images/future-juice-wrld-wrld-on-drugs-stream.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Wrld On Drugs</div></td>
+            <td> <div class ="Artists">Future and Juice Wrld</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 3 </div >   </td>
+            <td><div class ="cover"><img src="img/Images/loveletter3.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">A Love Letter to You 3</div></td>
+            <td><div class ="Artists"> Trippie Redd</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 4 </div > </td>
+            <td><div class ="cover"><img src="img/Images/squeezeface.png" width="80" height="60"></div></td>
+            <td> <div class ="title">HBK</div> </td>
+            <td> <div class ="Artists">Yxng Bane</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 5 </div > </td>
+            <td><div class ="cover"><img src="img/Images/tory.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Love Me Now</div> </td>
+            <td> <div class ="Artists">Tory Lanez</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 6 </div >  </td>
+            <td><div class ="cover"><img src="img/Images/https___images_genius_com_9c8508d3056b146aee2ad72d5f0606e7_926x926x1.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Astroworld</div> </td>
+            <td><div class ="Artists"> Travis Scott</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 7 </div > </td>
+            <td><div class ="cover"><img src="img/Images/takeoff-the_last_rocket-coverart-596x596--596x596.png" width="80" height="60"></div></td>
+            <td><div class ="title">The Last Rocket</div></td>
+            <td> <div class ="Artists">Takeoff</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">8  </div ></td>
+            <td><div class ="cover"><img src="img/Images/quavo_quavo%20hunco.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Quavo Huncho</div></td>
+            <td> <div class ="Artists">Quavo</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">9  </div ></td>
+            <td><div class ="cover"><img src="img/Images/uproar.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">Tha Carter V</div></td>
+            <td> <div class ="Artists">Lil Wayne</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 10 </div > </td>
+            <td><div class ="cover"><img src="img/Images/XXXTENTACION-Sad-Changes-Single-Cover.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">?</div></td>
+            <td> <div class ="Artists">XXXTentacion</div> </td>
+            </tr>
+            </table>
+        </div>
+</div>
+                
+
+<div id="hottestArtists" class="tabcontent">
+  <div class="chart3">
+        <table> <caption> Hottest Artists of the Month</caption>
+        <tr>
+            <th> Ranking </th>
+            <th> Picture </th>
+            <th> Age </th>
+            <th> Artist</th>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 1 </div >  </td>
+            <td><div class ="cover"> <img src="img/Images/JuiceWrld.jpg" width="80" height="60"> </div></td>
+            <td><div class ="title"> 19 Years Old (2nd of December 1999)</div></td>
+            <td><div class ="Artists"> Juice Wrld</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">  2 </div>  </td>
+            <td><div class ="cover"><img src="img/Images/trippie.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">19 Years Old (18th of June 1999)</div></td>
+            <td> <div class ="Artists">Trippie Redd</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 3 </div >   </td>
+            <td><div class ="cover"><img src="img/Images/swae-lee-vegas.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">23 Years Old (7th of June 1995)</div></td>
+            <td><div class ="Artists"> Swae Lee </div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 4 </div > </td>
+            <td><div class ="cover"><img src="img/Images/Travis.jpg" width="80" height="60"></div></td>
+            <td> <div class ="title">26 Years Old (30th of April 1992)</div> </td>
+            <td> <div class ="Artists">Travis Scott</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 5 </div > </td>
+            <td><div class ="cover"><img src="img/Images/drake-height-weight-age-2.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">32 Years Old (24th Of October 1986)</div> </td>
+            <td> <div class ="Artists">Drake</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 6 </div >  </td>
+            <td><div class ="cover"><img src="img/Images/220px-Young_Thug_2018.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">27 Years Old (16th Of August 1991)</div> </td>
+            <td><div class ="Artists"> Travis Scott</div></td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 7 </div > </td>
+            <td><div class ="cover"><img src="img/Images/21.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">26 Years Old (22th of October 1992)</div></td>
+            <td> <div class ="Artists">Takeoff</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">8  </div ></td>
+            <td><div class ="cover"><img src="img/Images/6ix9ine-188644.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">22 Years Old (8th of May 1996)</div></td>
+            <td> <div class ="Artists">6ix9ine</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking">9  </div ></td>
+            <td><div class ="cover"><img src="img/Images/future.JPG" width="80" height="60"></div></td>
+            <td><div class ="title">35 Years Old (20th of November 1983)</div></td>
+            <td> <div class ="Artists">Lil Wayne</div> </td>
+            </tr>
+            <tr>
+            <td><div class = "ranking"> 10 </div > </td>
+            <td><div class ="cover"><img src="img/Images/post.jpg" width="80" height="60"></div></td>
+            <td><div class ="title">23 Years Old (4th Of July 1995)</div></td>
+            <td> <div class ="Artists">Post Malone</div> </td>
+            </tr>
+            </table>
+        </div>
+</div>
+                </div>
+            </div>
+        
+        
+            <script src="js/charts.js"> </script>
+            
+        
+        
+                
+       <div class="mainpart-left">
+          <div class = "main-article">
+           <div class="overlay">   
+                  <a href="Article1.html">
+            <img src="img/Images/Juice_WRLD.jpg" width="400" height="250">
+            <h1> Who is Juice WRLD? </h1>
+                   <p> The lines between genres continue to be blurred, and Juice WRLD is doing it extremely well. Some of the biggest artists in hip-hop right now are the ones who bend the rules. Hip-hop is still a young genre and has been in a constant..</p>
+               </a>
+              
+            
+              </div>
+           </div>
+           </div>
+        
+           
+        <div class="footer">
+                <p style="padding-top:15px">Aaron Boyd</p>
+                <p>K00231569</p>
+                <p>Responsive Web Design Project</p>
+                <p>&copy; Copyright 2017 ISSA A RAP MEDIA GROUP</p>
+        <p><a href="mailto:IssaAnEmail@gmail.com">Email Us!</a></p>
+        </div>
+        </div>
+            
+            
+        
+    </body>
+</html>
+        
+        
